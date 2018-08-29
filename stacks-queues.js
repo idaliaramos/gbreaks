@@ -1,5 +1,5 @@
 
-//to implement a stack in javascript we use an array, so is there a way to make it an actual queue?
+//to implement a stack in javascript we use an array, so is there a way to make it an actual queue? application program interface(AOI)
 Elements can be added to or removed from a stack at only one end (the top).
 Elements can be added to a queue only at one end (the rear), and removed only from the other end (the front).
 
@@ -11,6 +11,11 @@ Elements can be added to a queue only at one end (the rear), and removed only fr
 //
 
 ////////////// STACK////////////////////////
+
+Push: O(1)
+Pop: O(1)
+Top: O(1)
+Search (Something like lookup, as a special operation): O(n) (I guess so)
 Elements can be added to or removed from a stack at only one end.
 Since we view this end as the "top" of the stack, we use the term "push" for add, and the term "pop" for remove.
 
@@ -25,9 +30,14 @@ Back/Forward stacks on browsers;
 Undo/Redo stacks in Excel or Word;
 Activation records of method calls;
 
+what are the methods? Pop, Push Peek, isEmpty
+
 used in depth first search
 
 ////////////////queue////////////////////////
+Insert: O(1)
+Remove: O(1)
+Size: O(1)  
 
 Elements can be added only at one end, the "rear", Elements can be removed only at the other end, the "front".
 We call adding to a queue "enqueueing", and removing from a queue "dequeueing".
@@ -42,3 +52,5 @@ A printer queue;
 An input stream;
 
 Used in breadth first search
+
+What are the methods? Queue, Dequeue, peek, isEmpty
